@@ -1,0 +1,19 @@
+version : '3'
+services:
+  app:
+    image: simple_php_aplication:version01
+    ports:
+      - " 80:80 "
+    working_dir: /
+    
+  mysql:
+    image: mysql_sample_image:version01
+    ports:
+      - " 3306:3306 "
+    environment:
+      MYSQL_ROOT_PASSWORD=password
+      MYSQL_DATABASE=database
+      MYSQL_USER=mallika
+      MYSQL_PASSWORD=secret
+    volumes:
+      - '/com.docker.devenvironments.code:/var/lib/mysql'  

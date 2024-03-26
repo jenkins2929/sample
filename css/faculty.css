@@ -1,0 +1,43 @@
+/* faculty.css */
+
+.container {
+    margin-top: 50px;
+}
+
+.center {
+    text-align: center;
+}
+
+.faculty-details {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.faculty-details h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.faculty-details p {
+    margin-bottom: 10px;
+}
+
+.faculty-options {
+    margin-top: 20px;
+}
+
+.faculty-options .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.faculty-options .btn:hover {
+    background-color: #0056b3;
+}

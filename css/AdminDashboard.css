@@ -1,0 +1,55 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url(1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+}
+
+.option {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.option:hover {
+  background-color: #0056b3;
+}
+
+.logout {
+  margin-top: 20px;
+  color: #dc3545;
+  text-decoration: none;
+}
+
+.logout:hover {
+  color: #bd2130;
+}

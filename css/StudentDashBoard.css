@@ -1,0 +1,110 @@
+html, body, div, h2, p, form, input, button, a {
+  margin: 0;
+  padding: 0;
+}
+
+/* Setting box-sizing to border-box */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Body styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url(1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+/* Dashboard container styles */
+.dashboard {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: azure;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+/* Profile section styles */
+.profile, .update-password, .Submit-feedback {
+  margin-bottom: 30px;
+}
+
+/* Button styles */
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #4CAF50;
+  color: azure;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #4CAF50;
+}
+
+/* Logout button styles */
+.logout {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+/* Heading styles */
+h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Paragraph styles */
+p {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+/* Form label styles */
+label {
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Form input styles */
+input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 8px;
+}
+
+/* Form button styles */
+form button {
+  background-color: #4CAF50;
+  color: azure;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
